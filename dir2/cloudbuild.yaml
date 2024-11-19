@@ -14,9 +14,9 @@
 
 # [START cloudbuild_quickstart_automate]
 steps:
-  - name: golang
-    args: ['go', 'run', 'dir2/main.go']
-    options:
-    logging: CLOUD_LOGGING_ONLY
+- name: golang
+  args: ['go', 'run', 'dir2/main.go']
+ options:
+  logging: CLOUD_LOGGING_ONLY
 timeout: "1800s"
 # [END cloudbuild_quickstart_automate]
